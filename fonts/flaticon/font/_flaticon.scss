@@ -1,6 +1,6 @@
     /*
     Flaticon icon font: Flaticon
-    Creation date: 25/06/2019 04:34
+    Creation date: 02/12/2019 17:48
     */
 
     @font-face {
@@ -37,10 +37,12 @@
   font-smoothing: antialiased;
     }
 
-    .flaticon-meeting:before { content: "\f100"; }
-.flaticon-tray:before { content: "\f101"; }
-.flaticon-cake:before { content: "\f102"; }
+    .flaticon-kitchen:before { content: "\f100"; }
+.flaticon-phone:before { content: "\f101"; }
+.flaticon-cake-of-celebration-with-one-candle:before { content: "\f102"; }
+.flaticon-visa-pay-logo:before { content: "\f103"; }
     
-    $font-Flaticon-meeting: "\f100";
-    $font-Flaticon-tray: "\f101";
-    $font-Flaticon-cake: "\f102";
+    $font-Flaticon-kitchen: "\f100";
+    $font-Flaticon-phone: "\f101";
+    $font-Flaticon-cake-of-celebration-with-one-candle: "\f102";
+    $font-Flaticon-visa-pay-logo: "\f103";

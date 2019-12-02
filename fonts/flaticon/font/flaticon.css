@@ -1,6 +1,6 @@
 	/*
   	Flaticon icon font: Flaticon
-  	Creation date: 25/06/2019 04:34
+  	Creation date: 02/12/2019 17:48
   	*/
 
 @font-face {
@@ -25,11 +25,12 @@
 [class^="flaticon-"]:before, [class*=" flaticon-"]:before,
 [class^="flaticon-"]:after, [class*=" flaticon-"]:after {   
   font-family: Flaticon;
-        font-size: 20px;
+        font-size: 60px;
 font-style: normal;
 margin-left: 20px;
 }
 
-.flaticon-meeting:before { content: "\f100"; }
-.flaticon-tray:before { content: "\f101"; }
-.flaticon-cake:before { content: "\f102"; }
+.flaticon-kitchen:before { content: "\f100"; }
+.flaticon-phone:before { content: "\f101"; }
+.flaticon-cake-of-celebration-with-one-candle:before { content: "\f102"; }
+.flaticon-visa-pay-logo:before { content: "\f103"; }

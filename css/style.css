@@ -8756,7 +8756,7 @@ h1, h2, h3, h4, h5,
     border-radius: 50%; }
     .services .icon span {
       font-size: 54px;
-      color: #c8a97e; }
+      color: #da4b4b; }
   .services .media-body h3 {
     font-weight: 500;
     font-size: 24px;
@@ -8770,7 +8770,8 @@ h1, h2, h3, h4, h5,
   display: block; }
   .ftco-search .nav-link-wrap {
     width: 100%;
-    margin-bottom: 30px; }
+    margin-bottom: 30px; 
+    margin-left: 280px}
   .ftco-search .nav-pills {
     width: 100%;
     display: block; }
