@@ -8771,7 +8771,7 @@ h1, h2, h3, h4, h5,
   .ftco-search .nav-link-wrap {
     width: 100%;
     margin-bottom: 30px; 
-    margin-left: 280px}
+  }
   .ftco-search .nav-pills {
     width: 100%;
     display: block; }
@@ -8792,7 +8792,10 @@ h1, h2, h3, h4, h5,
       -webkit-border-radius: 0;
       -moz-border-radius: 0;
       -ms-border-radius: 0;
-      border-radius: 0; }
+      border-radius: 0; 
+        margin-left: auto;
+    margin-right: auto;
+  }
       .ftco-search .nav-pills .nav-link:after {
         position: absolute;
         bottom: -10px;
@@ -8817,7 +8820,9 @@ h1, h2, h3, h4, h5,
         -ms-transition: all 0.3s ease;
         transition: all 0.3s ease;
         border: 1px solid transparent;
-        background: #c8a97e; }
+        background: #c8a97e;
+            margin-left: auto;
+    margin-right: auto; }
         .ftco-search .nav-pills .nav-link.active:after {
           opacity: 1; }
         @media (max-width: 767.98px) {
@@ -9790,3 +9795,68 @@ textarea.form-control {
   100% {
     stroke-dasharray: 89, 200;
     stroke-dashoffset: -136px; } }
+/* --------------------
+:: 7.0 Instagram Area CSS 
+-------------------- */
+
+.instagram_gallery_item {
+    position: relative;
+    z-index: 1;
+}
+
+.instagram_gallery_item img {
+    -webkit-transition-duration: 500ms;
+    transition-duration: 500ms;
+    width: 100%;
+}
+
+.instagram_gallery_item .hover_overlay {
+    background: #ecb86f94;
+    height: 100%;
+    left: 0;
+    opacity: 0;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    position: absolute;
+    top: 0;
+    -webkit-transition-duration: 500ms;
+    transition-duration: 500ms;
+    width: 100%;
+    z-index: 5;
+}
+
+.instagram_gallery_item:hover .hover_overlay {
+    opacity: 1;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+}
+
+.instagram_gallery_item .follow-me a {
+    font-size: 16px;
+    color: #fff;
+    font-weight: 400;
+}
+
+.instargram_area {
+    position: relative;
+    z-index: 1;
+}
+
+.instargram_area .owl-prev {
+    position: absolute;
+    width: 10%;
+    background-color: transparent;
+    height: 100%;
+    top: 0;
+    left: 0;
+    cursor: url(img/core-img/back.png), auto !important;
+    z-index: 9;
+}
+
+.instargram_area .owl-next {
+    position: absolute;
+    width: 10%;
+    background-color: transparent;
+    height: 100%;
+    top: 0;
+    right: 0;
+    cursor: url(img/core-img/next.png), auto !important;
+}

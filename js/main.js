@@ -87,6 +87,39 @@
 	};
 	carousel();
 
+	var galeriaCarousel = function(){
+	// :: 2.0 Instagram Slider Active Code
+        $(".instargram_area").owlCarousel({
+            items: 6,
+            loop: true,
+            autoplay: true,
+            smartSpeed: 800,
+            nav: true,
+            navText: ['', ''],
+            responsive: {
+                320: {
+                    items: 1
+                },
+                480: {
+                    items: 2
+                },
+                576: {
+                    items: 3
+                },
+                768: {
+                    items: 4
+                },
+                992: {
+                    items: 5
+                },
+                1200: {
+                    items: 6
+                }
+            }
+        })
+    };
+    galeriaCarousel();
+
 	$('nav .dropdown').hover(function(){
 		var $this = $(this);
 		// 	 timer;
