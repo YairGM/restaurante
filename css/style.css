@@ -392,9 +392,7 @@ mark,
   .blockquote-footer::before {
     content: "\2014\00A0"; }
 
-.img-fluid {
-  max-width: 100%;
-  height: auto; }
+
 
 .img-thumbnail {
   padding: 0.25rem;
@@ -8756,7 +8754,7 @@ h1, h2, h3, h4, h5,
     border-radius: 50%; }
     .services .icon span {
       font-size: 54px;
-      color: #da4b4b; }
+      color: #fb8f00; }
   .services .media-body h3 {
     font-weight: 500;
     font-size: 24px;
@@ -9859,4 +9857,70 @@ textarea.form-control {
     top: 0;
     right: 0;
     cursor: url(img/core-img/next.png), auto !important;
+}
+
+.thumb {
+  position: relative;
+}
+
+.thumb div {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.3);
+  color: #fff;
+  opacity: 0;
+  transition: opacity 0.5s;
+}
+
+.thumb img {
+  display: block;
+  width: 100%;
+}
+
+.thumb div span {
+  display: block;
+  position: absolute;
+  bottom: 30px;
+  left: 20px;
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight: 600;
+  letter-spacing: 3px;
+}
+
+.thumb div p {
+  display: block;
+  position: absolute;
+  bottom: 10px;
+  left: 20px;
+  font-weight: 100;
+}
+
+@media (max-width: 768px) {
+  .thumb div p {
+    bottom: -15px;
+  }
+}
+
+.thumb:hover div {
+  opacity: 1;
+  cursor: pointer;
+}
+
+.yummy-table {
+    display: table;
+    height: 100%;
+    left: 0;
+    position: relative;
+    top: 0;
+    width: 100%;
+    z-index: 2;
+}
+
+.yummy-table-cell {
+    display: table-cell;
+    vertical-align: middle;
 }
