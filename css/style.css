@@ -9242,7 +9242,7 @@ textarea.form-control {
   position: relative; }
   .heading-section .subheading {
     position: absolute;
-    top: -50px;
+    top: -40px;
     left: 0;
     right: 0;
     font-weight: normal;
@@ -9257,7 +9257,7 @@ textarea.form-control {
     z-index: -1; }
     @media (max-width: 767.98px) {
       .heading-section .subheading {
-        font-size: 90px;
+        font-size: 80px;
         top: -40px; } }
   .heading-section h2 {
     font-size: 50px;
@@ -9803,8 +9803,8 @@ textarea.form-control {
 }
 
 .instagram_gallery_item img {
-    -webkit-transition-duration: 500ms;
-    transition-duration: 500ms;
+    -webkit-transition-duration: 800ms;
+    transition-duration: 800ms;
     width: 100%;
 }
 

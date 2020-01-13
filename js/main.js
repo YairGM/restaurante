@@ -93,7 +93,7 @@
             items: 6,
             loop: true,
             autoplay: true,
-            smartSpeed: 800,
+            smartSpeed: 1000,
             nav: true,
             navText: ['', ''],
             responsive: {
