@@ -1594,6 +1594,7 @@ pre {
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
+  text-align: center;
   color: #495057;
   background-color: #fff;
   background-clip: padding-box;
@@ -1699,7 +1700,8 @@ textarea.form-control {
   height: auto; }
 
 .form-group {
-  margin-bottom: 1rem; }
+  margin-bottom: 1rem; 
+text-align: center;}
 
 .form-text {
   display: block;
